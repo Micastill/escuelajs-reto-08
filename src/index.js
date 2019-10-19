@@ -1,3 +1,5 @@
+require('dotenv').config()
+console.log(process.env.MY_VA);
 const express = require("express"),
   path = require("path"),
   app = express(),
